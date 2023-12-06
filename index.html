@@ -14,6 +14,29 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
 
     <link rel="stylesheet" href="css/style_index.css" />
+    <style>
+      #more {
+        display: none;
+      }
+      #more2 {
+        display: none;
+      }
+      #more3 {
+        display: none;
+      }
+      #more4 {
+        display: none;
+      }
+      #more5 {
+        display: none;
+      }
+      #more6 {
+        display: none;
+      }
+      #more7 {
+        display: none;
+      }
+    </style>
   </head>
   <body id="home">
     <!-- navbar -->
@@ -127,11 +150,15 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan website PHP native e-mading dengan menggunakan
-                  database MySql sebagai tempat penyimpanan data. Website ini
-                  berfungsi untuk menampilkan informasi terkait event atau pun
-                  pengumuman penting lainnya yang terdapat di kampus ITB STIKOM
-                  Bali.
+                  database MySql sebagai tempat penyimpanan data.
+                  <span id="dots">...</span>
+                  <span id="more">
+                    Website ini berfungsi untuk menampilkan informasi terkait
+                    event atau pun pengumuman penting lainnya yang terdapat di
+                    kampus ITB STIKOM Bali.
+                  </span>
                 </p>
+                <button onclick="myFunction1()" id="myBtn">Read more</button>
               </div>
             </div>
           </div>
@@ -145,13 +172,17 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan website berbasis Laravel e-commerce, yang terdapat
-                  pada perusahaan PT. Rejeki Graha Cipta, dengan API Rajaongkir
+                  pada perusahaan PT. Rejeki Graha Cipta, 
+                  <span id="dots2">...</span>
+                  <span id="more2">
+                  dengan API Rajaongkir
                   sebagai penyedia layanan data ongkos kirim, dan API Midtrans
                   sebagai pihak ketiga dalam melakukan transaksi pembayaran, dan
                   Database MySql sebagai tempat penyimpanan data. Website ini
                   merupakan sebuah platform untuk membantu perusahaan tersebut
                   dalam melakukan penjualan produk.
                 </p>
+                <button onclick="myFunction2()" id="myBtn2">Read more</button>
               </div>
             </div>
           </div>
@@ -165,10 +196,14 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan aplikasi flutter berbasis bahasa pembrograman dart,
-                  dimana pada aplikasi ini akan menampilkan list film terkini,
+                  dimana pada aplikasi ini akan menampilkan 
+                  <span id="dots3">...</span>
+                  <span id="more3">
+                  list film terkini,
                   dengan bantuan penyedia layanan API Imdb untuk data film yang
                   akan di tampilkan.
                 </p>
+                <button onclick="myFunction3()" id="myBtn3">Read more</button>
               </div>
             </div>
           </div>
@@ -182,10 +217,14 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan website berbasis CMS WordPress. Website ini
-                  merupakan platform yang digunakan oleh lapas perempuan kelas
+                  merupakan platform yang digunakan oleh lapas perempuan
+                  <span id="dots4">...</span>
+                  <span id="more4">
+                  kelas
                   IIA Bali dalam memudahkan pengguna untuk mengisi blanko
                   pengunjung tanpa harus datang langsung ke kantor lapas.
                 </p>
+                <button onclick="myFunction4()" id="myBtn4">Read more</button>
               </div>
             </div>
           </div>
@@ -199,11 +238,15 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan website berbasis CMS WordPress. Website ini
-                  merupakan sebuah company profile dari sebuah perusahaan
+                  merupakan sebuah company profile dari sebuah 
+                  <span id="dots5">...</span>
+                  <span id="more5">
+                  perusahaan
                   garment yaitu Sangkara Garment Manufacture, dimana website ini
                   akan menampilkan portofolio produk, serta sejarah dari
                   perusahaan tersebut.
                 </p>
+                <button onclick="myFunction5()" id="myBtn5">Read more</button>
               </div>
             </div>
           </div>
@@ -217,10 +260,14 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan website berbasis Laravel dan database MySql sebagai
-                  penyimpanan data. Website ini merupakan sebuah palform yang
+                  penyimpanan data. Website ini merupakan sebuah palform 
+                  <span id="dots6">...</span>
+                  <span id="more6">
+                  yang
                   dapat membantu pencari kerja dan pemberi kerja dalam mencari
                   informasi serta memberikan informasi terkait pekerjaan.
                 </p>
+                <button onclick="myFunction6()" id="myBtn6">Read more</button>
               </div>
             </div>
           </div>
@@ -234,9 +281,13 @@
               <div class="card-body">
                 <p class="card-text">
                   Merupakan website berbasis Laravel dan database MySql sebagai
-                  penyimpan data. Wesite ini merupakan sebuah paltform untuk
+                  penyimpan data. Wesite ini merupakan 
+                  <span id="dots7">...</span>
+                  <span id="more7">
+                  sebuah paltform untuk
                   menyimpan data nomor hanphone user.
                 </p>
+                <button onclick="myFunction7()" id="myBtn7">Read more</button>
               </div>
             </div>
           </div>
@@ -301,6 +352,7 @@
       </p>
     </footer>
     <!-- Akhir Footer -->
+    <script type="text/javascript" src="js/button.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
